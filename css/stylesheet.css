@@ -50,6 +50,8 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 300%;
+  font-weight: bold;
+  color: #313638;
 }
 
 
@@ -59,10 +61,11 @@ body {
 	padding: 0;
 	margin: 0;
 	border: 0;
-	background-color: gainsboro;
+	background-color: #EEF0EB;
 	font-family: 'Dosis', sans-serif;
 	font-size: 130%;
 	text-align: center;
+   color: #090909;
 }
 
 h1 {
