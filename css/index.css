@@ -1,4 +1,4 @@
-html {
+.root {
   scroll-behavior: smooth;
 }
   
@@ -54,6 +54,9 @@ html {
   color: #313638;
 }
 
+form {
+  text-align: center;
+}
 
 /* body */
 
@@ -210,4 +213,66 @@ img {
   color: #FEF5ED;
   text-shadow: 2px 2px 4px #151515;
 }
+}
+
+/* form styling */
+	
+.biggerfont {
+  font-size: 120%;
+}
+
+input[type=text] {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+  width: 70%;
+  
+  font-family: Sans-serif;
+  font-size: 85%;
+}
+
+ input[type=email] {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+  width: 70%;
+  
+  font-family: Sans-serif;
+  font-size: 85%;
+ }
+ 
+ input[type=tel] {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+  width: 70%;
+  
+  font-family: Sans-serif;
+  font-size: 85%;
+ }
+
+textarea {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 5px;
+  width: 70%;
+  
+  font-family: Sans-serif;
+  font-size: 85%;
+}
+
+input[type=submit] {
+  background-color: #FFFFFF;
+  border: 0;
+  border-radius: 10px;
+  padding: 0.5% 1%;
+  width: auto;
+  background: white;
+  
+  font-family: Sans-serif;
+  font-size: 85%;
+  color: #5D534A;
 }

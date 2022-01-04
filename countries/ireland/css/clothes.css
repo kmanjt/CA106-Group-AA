@@ -72,6 +72,48 @@ h1 {
 	font-size: 200%;
 }
 
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h4 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.clothing {
+  border: solid;
+  border-width: thin;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding: 8px;
+}
+
+.danceclothing {
+  border: solid;
+  border-width: thin;
+  margin-left: 45px;
+  margin-right: 45px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.irishdancing {
+  border: solid;
+  border-width: thin;
+  margin-left: 45px;
+  margin-right: 45px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
 /* images */
 
 .row {

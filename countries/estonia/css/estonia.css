@@ -38,11 +38,13 @@ html {
 	
 	
 .header_image {	
-    background-size: cover;
+    background-size: 100%;
 	  height: 700px;
     width: 100%;
     position: relative;
 	  z-index: -1;
+    color: white;
+    
 }
 
 .centered {
@@ -50,10 +52,10 @@ html {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 500%;
+  font-size: 300%;
   font-weight: bold;
-  color: transparent;
-  text-shadow: 2px 2px 4px #151515;
+  color: white;
+  text-shadow: 2px 2px 4px grey;
 }
 
 .intextimg { 
@@ -65,11 +67,11 @@ body {
 	padding: 0;
 	margin: 0;
 	border: 0;
-	background-color: transparent;
+	background-color: #EEF0EB;
 	font-family: 'Dosis', sans-serif;
 	font-size: 130%;
 	text-align: center;
-   color: #090909;
+  color: #090909;
 }
 
 h1 {
@@ -166,16 +168,19 @@ img {
   text-align: center;
   color: white;
 }	
+
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 250%;
+  font-size: 500%;
   font-weight: bold;
   color: #FEF5ED;
   text-shadow: 2px 2px 4px #151515;
 }
+
+
 iframe {
   width: 75%;
   height: 90%;
